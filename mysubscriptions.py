@@ -12,7 +12,7 @@ cost = { newspaper:(prices[0]*5 + prices[1] + prices[2]) for newspaper, prices i
 
 budget = int(input())
 
-result = []
+result =[]
 for newspapers in combinations(cost.keys(), 2):
     if (cost[newspapers[0]] + cost[newspapers[1]] <= budget):
         result += [set(newspapers)]
