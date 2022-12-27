@@ -1,2 +1,2 @@
 # nitish_solution_for_Test_Vagrant
-Solution to calculate the weekly subscription expenses of newspapers for a household.
+I invented an intelligent system that can calculate the weekly subcription expenses of newspapers for a household.To invent the system,I used python language.In this python language, i used the main features as importing the combinations and used dictionary while adding if the answers is in the budget then it is convert to set and added to the array. At last, print(*result) is used because to remove the open and closed brackets and sep="," is used to get the output by seperating with brackets.But one thing while running the code give input each time.
